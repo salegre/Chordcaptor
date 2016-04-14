@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer-array name="C">
+        <item>1</item>
+        <item>5</item>
+        <item>8</item>
+    </integer-array>
+    <integer-array name="D">
+        <item>3</item>
+        <item>7</item>
+        <item>10</item>
+    </integer-array>
+    <integer-array name="E">
+        <item>5</item>
+        <item>9</item>
+        <item>12</item>
+    </integer-array>
+    <integer-array name="F">
+        <item>6</item>
+        <item>10</item>
+        <item>1</item>
+    </integer-array>
+    <integer-array name="G">
+        <item>8</item>
+        <item>12</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="A">
+        <item>10</item>
+        <item>2</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="B">
+        <item>12</item>
+        <item>4</item>
+        <item>7</item>
+    </integer-array>
+
+    <integer-array name="Cm">
+        <item>1</item>
+        <item>4</item>
+        <item>8</item>
+    </integer-array>
+    <integer-array name="Dm">
+        <item>3</item>
+        <item>6</item>
+        <item>10</item>
+    </integer-array>
+    <integer-array name="Em">
+        <item>5</item>
+        <item>8</item>
+        <item>12</item>
+    </integer-array>
+    <integer-array name="Fm">
+        <item>6</item>
+        <item>9</item>
+        <item>1</item>
+    </integer-array>
+    <integer-array name="Gm">
+        <item>8</item>
+        <item>11</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="Am">
+        <item>10</item>
+        <item>1</item>
+        <item>5</item>
+    </integer-array>
+    <integer-array name="Bm">
+        <item>12</item>
+        <item>3</item>
+        <item>7</item>
+    </integer-array>
+
+    <integer-array name="Cs">
+        <item>2</item>
+        <item>6</item>
+        <item>9</item>
+    </integer-array>
+    <integer-array name="Ds">
+        <item>4</item>
+        <item>8</item>
+        <item>11</item>
+    </integer-array>
+    <integer-array name="Fs">
+        <item>7</item>
+        <item>11</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="Gs">
+        <item>9</item>
+        <item>1</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="As">
+        <item>11</item>
+        <item>3</item>
+        <item>6</item>
+    </integer-array>
+
+    <integer-array name="Csm">
+        <item>2</item>
+        <item>5</item>
+        <item>9</item>
+    </integer-array>
+    <integer-array name="Dsm">
+        <item>4</item>
+        <item>7</item>
+        <item>11</item>
+    </integer-array>
+    <integer-array name="Esm">
+        <item>6</item>
+        <item>9</item>
+        <item>1</item>
+    </integer-array>
+    <integer-array name="Fsm">
+        <item>7</item>
+        <item>10</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="Gsm">
+        <item>9</item>
+        <item>12</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="Asm">
+        <item>11</item>
+        <item>2</item>
+        <item>6</item>
+    </integer-array>
+
+</resources>

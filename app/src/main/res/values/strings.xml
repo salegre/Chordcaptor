@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ChordFinder</string>
+    <string-array name="chords">
+        <item>C</item>
+        <item>Cm</item>
+        <item>C#</item>
+        <item>C#m</item>
+        <item>D</item>
+        <item>Dm</item>
+        <item>D#</item>
+        <item>D#m</item>
+        <item>E</item>
+        <item>Em</item>
+        <item>F</item>
+        <item>Fm</item>
+        <item>F#</item>
+        <item>F#m</item>
+        <item>G</item>
+        <item>Gm</item>
+        <item>G#</item>
+        <item>G#m</item>
+        <item>A</item>
+        <item>Am</item>
+        <item>A#</item>
+        <item>A#m</item>
+        <item>B</item>
+        <item>Bm</item>
+    </string-array>
+    <string-array name="notes">
+        <item>C</item>
+        <item>C#</item>
+        <item>D</item>
+        <item>D#</item>
+        <item>E</item>
+        <item>F</item>
+        <item>F#</item>
+        <item>G</item>
+        <item>G#</item>
+        <item>A</item>
+        <item>A#</item>
+        <item>B</item>
+    </string-array>
+</resources>
