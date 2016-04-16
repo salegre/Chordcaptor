@@ -3,7 +3,6 @@ package com.sebastian.chordfinder;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
@@ -46,6 +45,13 @@ public class MainActivity extends AppCompatActivity {
         str2.setAdapter(adapter);
         str1.setAdapter(adapter);
 
+        str6.setSelection(4);
+        str5.setSelection(11);
+        str4.setSelection(7);
+        str3.setSelection(2);
+        str2.setSelection(9);
+        str1.setSelection(4);
+
     }
 
     @OnClick(R.id.getChordsButton)
@@ -57,16 +63,9 @@ public class MainActivity extends AppCompatActivity {
                 str2.getSelectedItemPosition(),
                 str1.getSelectedItemPosition()};
 
-        Log.i("Main", str5.getSelectedItemPosition() + " " +
-                str4.getSelectedItemPosition() + " " +
-                str3.getSelectedItemPosition() + " " +
-                str2.getSelectedItemPosition() + " " +
-                str1.getSelectedItemPosition());
-
 
         Intent intent = new Intent(this, ChordResults.class);
         intent.putExtra("TUNING", tuning);
         startActivity(intent);
-        finish();
     }
 }
