@@ -15,8 +15,8 @@ public class ChordResults extends AppCompatActivity {
     @Bind(R.id.spinnerNote) Spinner noteSpinner;
     @Bind(R.id.spinnerQuality) Spinner qualitySpinner;
     @Bind(R.id.spinnerSeventh) Spinner seventhSpinner;
-    @Bind(R.id.textViewChords)
-    TextView chordsDisplay;
+    @Bind(R.id.resultsTextView)
+    TextView resultsTextView;
 
     Tuning config;
 
@@ -50,7 +50,7 @@ public class ChordResults extends AppCompatActivity {
     }
 
     public void displayChord(){
-        chordsDisplay.setText(config.showChord(noteSpinner.getSelectedItemPosition(), qualitySpinner.getSelectedItemPosition(), seventhSpinner.getSelectedItemPosition()));
+        resultsTextView.setText(config.showChord(noteSpinner.getSelectedItemPosition(), qualitySpinner.getSelectedItemPosition(), seventhSpinner.getSelectedItemPosition()));
     }
 
     @OnItemSelected(R.id.spinnerNote)

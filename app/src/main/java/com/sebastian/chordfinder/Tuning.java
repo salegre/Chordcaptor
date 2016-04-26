@@ -39,11 +39,52 @@ public class Tuning {
         String[] positions = getPositions(chord);
 
         String p = "";
-        for(int i = 0; i < positions.length; i++) {
-            p = p + positions[i] + " ";
+        for(int i = 0; i < tuning.length; i++) {
+            for(int j = 0; j < 6; j++) {
+                if(j == 0) {
+                    p = p + toNote(tuning[i]) + " |";
+                } else if ((j + "").equals(positions[i])) {
+                    p = p + "-x-|";
+                } else {
+                    p = p + "---|";
+                }
+                if(j == 5) {
+                    p = p + "\n";
+                }
+            }
         }
 
         return p;
+    }
+
+    public String toNote(int t) {
+        if(t == 0) {
+            return "C ";
+        } else if (t == 1) {
+            return "C#";
+        } else if (t == 2) {
+            return "D ";
+        } else if (t == 3) {
+            return "D#";
+        } else if (t == 4) {
+            return "E ";
+        } else if (t == 5) {
+            return "F ";
+        } else if (t == 6) {
+            return "F#";
+        } else if (t == 7) {
+            return "G ";
+        } else if (t == 8) {
+            return "G#";
+        } else if (t == 9) {
+            return "A ";
+        } else if (t == 10) {
+            return "A#";
+        } else if (t == 11) {
+            return "B ";
+        } else {
+            return "XX";
+        }
     }
 
 }
