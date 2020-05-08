@@ -33,8 +33,8 @@ public class Tuning {
         return placements;
     }
 
-    public String showChord(int note, int quality, int seventh) {
-        int[] chord = {note, note + 4 - quality, note + 7, (note + 12 - seventh)%12};
+    public String showChord(int root, int quality, int seventh) {
+        int[] chord = {root, root + 4 - quality, root + 7, (root + 12 - seventh)%12};
 
         String[] positions = getPositions(chord);
 
