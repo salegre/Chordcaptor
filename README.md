@@ -1,3 +1,3 @@
 # Chordcaptor
 
-Access a working version here: https://sebastianalegre.com/chordcaptor/
+Access a (ported) working version here: https://sebastianalegre.com/chordcaptor/
